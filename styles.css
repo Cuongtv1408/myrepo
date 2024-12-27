@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Thiết lập màu nền và font chữ cho toàn bộ trang */
+body {
+    background-color: #f4f4f4; /* Màu nền sáng */
+    font-family: Arial, sans-serif; /* Chọn font chữ đơn giản */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Màu chữ tối */
+}
+
+/* Tiêu đề chính */
+h1 {
+    color: #4CAF50; /* Màu xanh lá cây */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Đoạn văn bản */
+p {
+    line-height: 1.6;
+    margin: 20px;
+    font-size: 16px;
+}
+
+/* Thiết lập cho các liên kết */
+a {
+    color: #007BFF; /* Màu xanh dương */
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi hover chuột */
+}
+
+/* Các nút */
+button {
+    background-color: #4CAF50; /* Màu nền nút xanh */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+}
+
